@@ -1,7 +1,7 @@
 // Network configuration
 exports.RPC = "https://rpc-testnet.whitebit.network";
 exports.ETHERSCAN = "https://explorer.whitebit.network/testnet";
-exports.ETH = "0.0001";
+exports.ETH = "0.00001";
 
 // Account addresses and private keys
 exports.addresses = {
