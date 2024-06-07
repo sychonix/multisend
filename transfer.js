@@ -6,7 +6,7 @@ const privateKey = require("./config").keys.main;
 
 // Contract ABI dan alamat
 const tokenABI = require("./tokenABI.json");
-const tokenAddress = "0x0Fff1763AcFA9992Faa81cd414f9DEEAb12ba732"; // Ganti dengan alamat kontrak token yang sesuai
+const tokenAddress = "0x0Fff1763AcFA9992Faa81cd414f9DEEAb12ba732"; // Ganti sc token // address wallet
 
 const provider = new ethers.providers.JsonRpcProvider(RPC);
 const wallet = new ethers.Wallet(privateKey, provider);
