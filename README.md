@@ -2,18 +2,18 @@
 git clone https://github.com/sychonix/multisend
 ```
 ```
-cd MultiSendToken
+cd multisend
 ```
 ```
 npm i
 ```
 # add sc
 ```
-transfer.js
+nano transfer.js
 ```
 # privkey
 ```
-config.js
+nano config.js
 ```
 ```
 node transfer.js
