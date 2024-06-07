@@ -1,29 +1,29 @@
 // Network configuration
-exports.RPC = "https://nillion-testnet-rpc.polkachu.com/";
-exports.ETHERSCAN = "https://testnet.nillion.explorers.guru/";
+exports.RPC = "#";
+exports.ETHERSCAN = "#";
 exports.ETH = "0.00001";
 
 // Account addresses and private keys
 exports.addresses = {
-  W_2: "nillion19669ny0u5myn5t5g00k4j0yzec0upg0t50j767",
-  W_3: "nillion1kejggt5fk6ddpmd2x5mzxdyy5hdttpv6uwh5h2",
-  W_4: "nillion1vyf3jzx2xp48rwmx6xga7mkcyrnnxz9rvvvfu8",
-  W_5: "nillion1vyf3jzx2xp48rwmx6xga7mkcyrnnxz9rvvvfu8",
-  W_6: "nillion15x7sfuyeacteuzj24xmv8utkups274308e9dgd",
-  W_7: "nillion1a08qqa6e0gncgcy4940m2upk3um7gqnwrmqddt",
-  W_8: "nillion12dkrdd7yssepvwp6dcz5ram7yzxjlgufqtquun",
-  W_9: "nillion1fn9542kw67l6qpduj9zzdfzf7uv0lfdrtj4zed",
-  W_10: "nillion1eq2ncte6chhe0hk2dpvxjp32ax95z063cpw8vr",
-  W_11: "nillion12dkrdd7yssepvwp6dcz5ram7yzxjlgufqtquun",
-  W_12: "nillion12dkrdd7yssepvwp6dcz5ram7yzxjlgufqtquun",
-  W_13: "nillion1ggcg3kjdvhnewzdfpydrj4tcuzu3u2373rxsyv",
-  W_14: "nillion1m34lye0khxzv538fc0msjnc4d78t5jx9enjs0y",
-  W_15: "nillion17kvjdsad7axlynsj59tjwg29fu4ct60hdqzw7e",
-  W_16: "nillion1usml20322dp3r4kvr60vlfdxntsl80m3t76zj2",
-  W_17: "nillion1eq2ncte6chhe0hk2dpvxjp32ax95z063cpw8vr",
-  W_18: "nillion15yr77p5uy4scf9avj93zzhw3wn2c04wy3p7u8j",
-  W_19: "nillion1wxhd82vqqnklsxz7t2usq254jtp6mysyv8nkrf",
-  W_20: "nillion1efnrrf29h4qjr972tjd0k2h5nt5qwt70vvfvxy",
+  W_2: "0xE38e58418500D88dA850E0Fc5faE687331cb578B",
+  W_3: "0x5506bB60951C75166e3845157Cd6CC2f24F93D4c",
+  W_4: "0xa6d6faE27283B94458B24A3fD693a657c6De61Ae",
+  W_5: "0x918ef0Bb51ABBe2ee0B3C99d29d2d106d61461a7",
+  W_6: "0xD4c88E7e1C5BF150d4bf8D187f1cf1412E11EFb1",
+  W_7: "0x5ADd031742a9f9CA71692DC98E41421F91Fd9bd5",
+  W_8: "0x237703C4505c7b0A9aE68B51516D58AD61a698BE",
+  W_9: "0x1c27622eB7D068eAe55EF8E7FE16438c0fC23A7a",
+  W_10: "0x69eA374E03788022F59741B09a6e59951Ac9E807",
+  W_11: "0xCf56BB2Be1f0c00334B30FE1b592a48De757EC25",
+  W_12: "0x29Ea2Ccae52AAB7EDE1E78A63bD907C7354deea5",
+  W_13: "0x918ef0Bb51ABBe2ee0B3C99d29d2d106d61461a7",
+  W_14: "0x8995ea55677D4E45497997a4121262D6Bf8BAD2F",
+  W_15: "0x918ef0Bb51ABBe2ee0B3C99d29d2d106d61461a7",
+  W_16: "0x8995ea55677D4E45497997a4121262D6Bf8BAD2F",
+  W_17: "0x12f127EfDDA30d762C54CA6a1B8E69e9B84a6778",
+  W_18: "0x12f127EfDDA30d762C54CA6a1B8E69e9B84a6778",
+  W_19: "0x310cE73F86B67c42c62aDEA6bF7ca0eB5f60cc94",
+  W_20: "0x12f127EfDDA30d762C54CA6a1B8E69e9B84a6778",
   W_21: "0xD4BC912FbB33d505Ed4718600127333AD9b8Fe45",
   W_22: "0x9a7b8b2887893324b38D6Bec334C403Ffd6AF850",
   W_23: "0x783756A5eF088720D2a3296cdd5336659B2D0E67",
