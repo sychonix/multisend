@@ -17,7 +17,7 @@ const wallet = new ethers.Wallet(privateKey, provider);
 
     const tokenContract = new ethers.Contract(tokenAddress, tokenABI, wallet);
 
-    const transferAmount = ethers.BigNumber.from("1000000000000"); // Ganti dengan jumlah token yang ingin Anda transfer (dalam satuan uint256)
+    const transferAmount = ethers.BigNumber.from("100000000000000"); // Ganti dengan jumlah token yang ingin Anda transfer (dalam satuan uint256)
 
     const iterations = 1000; // Tentukan jumlah pengulangan untuk melakukan transaksi berulang
 
