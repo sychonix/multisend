@@ -15,6 +15,11 @@ nano transfer.js
 ```
 nano config.js
 ```
+
+# Run
 ```
-node transfer.js
+chmod +x run_transfer.sh
+```
+```
+./run_transfer.sh
 ```
