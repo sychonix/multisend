@@ -27,10 +27,15 @@ const wallet = new ethers.Wallet(privateKey, provider);
       console.log(`=== Iterasi ${j + 1} ===`);
       
       for (let i = 0; i < 1999; i++) {
-        const toAddress = addresses[`W_${i + 2}`];
-        const transaction = await tokenContract.transfer(toAddress, transferAmount);
-        transferCounter++; // Tambahkan counter setiap kali transfer berhasil
-        console.log(`Transfer Berhasil ke ${toAddress}. Tx => [${transaction.hash}] - Nomor Urut: ${transferCounter}`);
+        try {
+          const toAddress = addresses[`W_${i + 2}`];
+          const transaction = await tokenContract.transfer(toAddress, transferAmount);
+          transferCounter++; // Tambahkan counter setiap kali transfer berhasil
+          console.log(`Transfer Berhasil ke ${toAddress}. Tx => [${transaction.hash}] - Nomor Urut: ${transferCounter}`);
+        } catch (innerErr) {
+          // Hilangkan atau komentar baris berikut untuk menghilangkan log error
+          // console.error(`Gagal transfer ke ${addresses[`W_${i + 2}`]}. Error: ${innerErr.message}`);
+        }
       }
     }
 
@@ -38,6 +43,7 @@ const wallet = new ethers.Wallet(privateKey, provider);
     console.log(`Lihat transaksi di: ${ETHERSCAN}/address/${wallet.address}`);
 
   } catch (err) {
-    console.error(err);
+    // Hilangkan atau komentar baris berikut untuk menghilangkan log error utama
+    // console.error(`Error utama: ${err.message}`);
   }
 })();
