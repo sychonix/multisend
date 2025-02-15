@@ -10,7 +10,7 @@
   "dependencies": {
     "@openzeppelin/contracts": "^4.8.1",
     "@uniswap/v2-periphery": "^1.1.0-beta.0",
-    "ethers": "^5.7.2"
+    "ethers": "^6.13.5"
   }
 }
 
